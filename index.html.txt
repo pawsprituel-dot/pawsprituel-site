@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw Spritüel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f3f1;
+            color: #4b3e36;
+        }
+        .text-brown-custom {
+            color: #4b3e36;
+        }
+        .bg-brown-light {
+            background-color: #f7f3f1;
+        }
+        .bg-brown-dark {
+            background-color: #4b3e36;
+        }
+        .bg-brown-custom {
+            background-color: #4b3e36;
+        }
+        .hero {
+            /* Ana görseliniz buraya gelecek */
+            background-image: url('https://images.unsplash.com/photo-15917682b2212-a32d6a798675?q=80&w=2071&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="py-6 px-4 md:px-8 absolute top-0 left-0 w-full z-10 bg-brown-light/70 backdrop-blur-sm">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-xl font-bold text-brown-custom">Paw Spritüel</div>
+            <div class="flex space-x-4">
+                <a href="#meditasyonlar" class="hover:underline">Meditasyonlar</a>
+                <a href="#dogal-taslar" class="hover:underline">Doğal Taşlar</a>
+                <a href="#hizmet-paketleri" class="hover:underline">Hizmet Paketleri</a>
+                <a href="#iletisim" class="hover:underline">İletişim</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero min-h-screen flex items-center justify-center p-4 md:p-8">
+        <div class="bg-brown-light bg-opacity-80 backdrop-blur-sm p-8 md:p-12 rounded-2xl shadow-xl max-w-2xl text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 text-brown-custom">Paw Spritüel</h1>
+            <p class="text-lg md:text-xl text-brown-custom font-medium">Köpeğinizle Ruhsal Bağınızı Keşfedin</p>
+            <p class="mt-4 text-brown-custom">Köpekler sadece evcil hayvan değil, aynı zamanda ruhsal yolculuğumuzda bize eşlik eden özel varlıklardır. Onlarla kuracağımız derin bağ, kendi iç huzurumuzu bulmamıza yardımcı olabilir. Paw Spritüel, bu özel yolculukta size rehberlik etmek için hazır.</p>
+        </div>
+    </main>
+
+    <!-- Meditasyon Section -->
+    <section id="meditasyonlar" class="py-16 md:py-24 px-4 md:px-8 bg-brown-light">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-brown-custom">Meditasyon ve Ritüeller</h2>
+            
+            <!-- Sabah Güneşini Selamlama -->
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-8">
+                <img src="https://i.imgur.com/Sm8ZFrW.jpg" alt="Sabah güneşinde meditasyon yapan insan ve köpek" class="w-full h-auto rounded-xl mb-6" onerror="this.onerror=null;this.src='https://placehold.co/600x400/f7f3f1/4b3e36?text=Görsel+Yüklenemedi';">
+                <img src="https://i.imgur.com/ea32pQq.jpg" alt="Göz göze gelen insan ve köpek" class="w-full h-auto rounded-xl mt-4 mb-6" onerror="this.onerror=null;this.src='https://placehold.co/600x400/f7f3f1/4b3e36?text=Görsel+Yüklenemedi';">
+                <h3 class="text-2xl font-bold mb-4 text-brown-custom">Sabah Güneşini Selamlama ve Birlikte Meditasyon</h3>
+                <p class="mb-2"><span class="font-semibold">Fiziksel Pratik:</span> Güneş doğarken, köpeğinle açık havaya çık ve birkaç basit esneme hareketi yap. Esnerken derin nefes alıp vererek, hem kendi bedenini hem de köpeğinin esneme hareketlerini taklit edebilirsin.</p>
+                <p><span class="font-semibold">Ruhsal Pratik:</span> Köpeğinle birlikte rahat bir pozisyonda otur, gözlerini kapat ve kalp atışlarınızın senkronize olduğunu hisset. Yavaş ve derin nefesler alarak güneşe, "Bu yeni günün ışığı, içimdeki ve köpeğimin içindeki gölgeleri aydınlatıyor" diye niyet et.</p>
+            </div>
+
+            <!-- Sessiz Sohbet ve Göz Teması Ritüeli -->
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg mb-8">
+                <img src="https://i.imgur.com/rRkdALp.jpg" alt="Köpeğiyle göz teması kuran kişi" class="w-full h-auto rounded-xl mb-6" onerror="this.onerror=null;this.src='https://placehold.co/600x400/f7f3f1/4b3e36?text=Görsel+Yüklenemedi';">
+                <h3 class="text-2xl font-bold mb-4 text-brown-custom">Sessiz Sohbet ve Göz Teması Ritüeli</h3>
+                <p class="mb-2"><span class="font-semibold">Fiziksel Pratik:</span> Köpeğinle yüz yüze otur, elini kalbine koyarak fiziksel bir bağ kur.</p>
+                <p><span class="font-semibold">Ruhsal Pratik:</span> Gözlerinin içine derinlemesine bakarak, sözcükler yerine duygularınla onunla iletişim kur ve minnettarlığını hisset. Bu ritüel, köpeğinin senin duygularını ne kadar iyi anladığını ve ruhsal olarak sana ne kadar yakın olduğunu gösterir.</p>
+            </div>
+
+            <!-- Sarılma Meditasyonu -->
+            <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+                <img src="https://i.imgur.com/WIFzY8Q.jpg" alt="İnsan ve köpeğin sarılması" class="w-full h-auto rounded-xl mb-6" onerror="this.onerror=null;this.src='https://placehold.co/600x400/f7f3f1/4b3e36?text=Görsel+Yüklenemedi';">
+                <h3 class="text-2xl font-bold mb-4 text-brown-custom">Sarılma Meditasyonu: Kalpten Kalbe Enerji Akışı</h3>
+                <p class="mb-2">Bu pratik, sadece fiziksel bir yakınlıktan öte, kalplerinizdeki şifalı enerjinin birbirine akışını amaçlar. Köpekler, enerjiyi sezme ve dengeleme konusunda ustadır; sarılmak, bu enerjiyi bilinçli bir şekilde paylaşmanızı sağlar.</p>
+                <p class="mb-2"><span class="font-semibold">Fiziksel Pratik:</span> Köpeğinizle rahatça uzanın veya oturun. Onu kucağınıza alın ya da ona sarılın.</p>
+                <p><span class="font-semibold">Ruhsal Pratik:</span> Gözlerinizi kapatın ve her nefeste, kalbinizdeki sevgi enerjisinin elinizden köpeğinizin kalbine aktığını hayal edin. Köpeğinizden gelen huzur ve sakinlik enerjisinin de size aktığını hissedin. Bu karşılıklı enerji alışverişine 5-10 dakika odaklanın.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doğal Taşlar Section -->
+    <section id="dogal-taslar" class="py-16 md:py-24 px-4 md:px-8 bg-brown-dark text-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Doğal Taş ve Kristaller</h2>
+            
+            <!-- Ametist -->
+            <div class="bg-white text-brown-custom p-6 md:p-8 rounded-2xl shadow-lg mb-8">
+                <h3 class="text-2xl font-bold mb-4">Ametist</h3>
+                <p class="mb-2"><span class="font-semibold">Köpeklere Faydası:</span> Sakinleştirici ve huzur veren bir taştır. Kaygılı, stresli veya yeni bir ortama adapte olmaya çalışan köpeklerin rahatlamasına yardımcı olur.</p>
+                <p><span class="font-semibold">Nasıl Kullanılır:</span> Köpeğinizin tasmasına takılabilir veya yatağının altına yerleştirilebilir.</p>
+            </div>
+
+            <!-- Pembe Kuvars -->
+            <div class="bg-white text-brown-custom p-6 md:p-8 rounded-2xl shadow-lg mb-8">
+                <h3 class="text-2xl font-bold mb-4">Pembe Kuvars</h3>
+                <p class="mb-2"><span class="font-semibold">Köpeklere Faydası:</span> Koşulsuz sevgi ve şefkat enerjisi yayar. Travmatik geçmişi olan veya sahiplerine daha sıkı bağlanması gereken köpeklerin güven duygusunu geliştirmesine katkıda bulunur.</p>
+            </div>
+
+            <!-- Kaplan Gözü -->
+            <div class="bg-white text-brown-custom p-6 md:p-8 rounded-2xl shadow-lg">
+                <h3 class="text-2xl font-bold mb-4">Kaplan Gözü</h3>
+                <p class="mb-2"><span class="font-semibold">Köpeklere Faydası:</span> Cesaret ve özgüven taşıdır. Çekingen veya korkak köpeklerin daha cesur olmalarına, yeni deneyimlere açık olmalarına yardımcı olur.</p>
+                <p><span class="font-semibold">Nasıl Kullanılır:</span> Köpeğin oyuncağının yanına veya yatağına konulabilir.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Hizmet Paketleri Section -->
+    <section id="hizmet-paketleri" class="py-16 md:py-24 px-4 md:px-8 bg-brown-light">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-brown-custom">Hizmet Paketleri: Pati ve Ruh'un Yolculuğu</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- EKİZ KÖPEK KULÜBÜ HİZMET PAKETLERİ -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-brown-custom">EKİZ KÖPEK KULÜBÜ HİZMET PAKETLERİ</h3>
+                    <p class="mb-4 text-sm text-gray-500">Misyon: Pozitif, modern ve bilimsel yöntemlerle dengeli ve uyumlu köpekler yetiştirmek.</p>
+
+                    <!-- Paket 1 -->
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg mb-2">🐶 1. Paket: "Yavru Adımlar ve Temel İtaat"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Yavru köpek sahiplenenler veya temel itaat eğitimi almak isteyenler.</li>
+                            <li>Pozitif eğitimle yeni tanışanlar.</li>
+                            <li>Köpeğiyle güvenli ve net bir iletişim kurmak isteyenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">İçerik:</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Temel İtaat Komutları (Otur, Gel, Bekle, Yat, Bırak).</li>
+                            <li>Tasma ve tasmada yürüme eğitimi.</li>
+                            <li>Tuvalet ve ev içi kurallarını öğrenme.</li>
+                            <li>Isırma ve çiğneme alışkanlıklarını yönetme.</li>
+                            <li>Sosyalizasyonun önemi ve ilk adımlar.</li>
+                        </ul>
+                        <p class="font-semibold mt-2">Süre & Yapı: <span class="font-normal">4 haftalık yoğun program (Haftada 1 veya 2 seans, toplam 4-8 seans)</span></p>
+                    </div>
+
+                    <!-- Paket 2 -->
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg mb-2">🐕 2. Paket: "Davranış Çözümleri ve İleri Uyum"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Belirli davranış sorunları (havlama, tasmada çekme, yalnızlık kaygısı, eşya koruma vb.) yaşayan köpekler ve sahipleri.</li>
+                            <li>Temel eğitimi tamamlamış ve becerilerini geliştirmek isteyenler.</li>
+                            <li>Köpeğiyle dışarıda daha uyumlu olmayı hedefleyenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">İçerik:</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Davranış Analizi ve Kişiselleştirilmiş Çözüm Planı.</li>
+                            <li>İleri İtaat Komutları (Uzaktan kal, Yerine git, Yürüyüş protokolü).</li>
+                            <li>Dürtü kontrolü ve sakinleşme egzersizleri.</li>
+                            <li>Çevre uyaranlarına karşı tepki yönetimi.</li>
+                            <li>Agresyon veya korku temelli davranışlara özel yaklaşımlar.</li>
+                        </ul>
+                        <p class="font-semibold mt-2">Süre & Yapı: <span class="font-normal">6 haftalık kapsamlı program (Haftada 1 veya 2 seans, toplam 6-12 seans)</span></p>
+                    </div>
+
+                    <!-- Paket 3 -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">🏅 3. Paket: "Şampiyonlar ve Liderlik"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Köpeğiyle profesyonel düzeyde bir bağ ve kontrol arayanlar.</li>
+                            <li>Sportif veya ileri düzey eğitim hedefleri olanlar (Freezbe, agility başlangıcı vb.).</li>
+                            <li>Köpeğiyle mükemmel bir lider-takipçi ilişkisi kurmak isteyenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">İçerik:</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Tasmasız itaat ve güvenli geri çağırma.</li>
+                            <li>Karmaşık komut zincirleri ve problem çözme becerileri.</li>
+                            <li>Ortam farklılıklarında istikrarlı davranış.</li>
+                            <li>Sahip-köpek dinamiğini güçlendiren liderlik egzersizleri.</li>
+                            <li>Hobi ve spor aktivitelerine giriş danışmanlığı.</li>
+                        </ul>
+                        <p class="font-semibold mt-2">Süre & Yapı: <span class="font-normal">Yoğun ve Esnek Program (8+ seans, kişiye özel planlama)</span></p>
+                    </div>
+                </div>
+
+                <!-- PAWSPRİTÜEL HİZMET PAKETLERİ -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-brown-custom">PAWSPRİTÜEL HİZMET PAKETLERİ</h3>
+                    <p class="mb-4 text-sm text-gray-500">Misyon: İnsan ve köpek arasındaki ruhsal bağı derinleştirmek, sezgisel iletişimi ve farkındalığı artırmak.</p>
+                    
+                    <!-- Paket 1 -->
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg mb-2">🌟 1. Paket: "Ruhsal Uyanış ve Bağ Kurma"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Köpeğiyle daha derin, enerjisel bir bağ kurmak isteyenler.</li>
+                            <li>Hayvanların spiritüel boyutunu keşfetmeye meraklı olanlar.</li>
+                            <li>İlişkilerine yeni bir farkındalık katmak isteyenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">İçerik:</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Köpeğinizin enerji alanını ve beden dilini "sezgisel" olarak anlama.</li>
+                            <li>Sahip ve köpek için ilk ortak nefes ve sakinleşme pratikleri.</li>
+                            <li>Koşulsuz sevgi enerjisini aktive etme egzersizleri.</li>
+                            <li>Köpeklerin ruhsal rehberliğinin ilk işaretleri.</li>
+                        </ul>
+                        <p class="font-semibold mt-2">Süre & Yapı: <span class="font-normal">3 seanslık başlangıç paketi (Haftada 1 seans)</span></p>
+                    </div>
+
+                    <!-- Paket 2 -->
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg mb-2">💖 2. Paket: "Derin Bağlar ve Enerji Dengelemesi"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Köpeğiyle olan enerjisel uyumunda blokajlar hissedenler.</li>
+                            <li>Köpeğinin duygu durumundaki değişikliklerin enerjisel kökenini anlamak isteyenler.</li>
+                            <li>Ortak meditasyon ve şifa tekniklerini deneyimlemek isteyenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">İçerik:</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Köpek ve sahibi için bireysel ve ortak enerji okumaları.</li>
+                            <li>Çakra dengeleme ve aura temizleme (hem sahip hem de köpek için).</li>
+                            <li>Duygusal bağları güçlendiren ileri seviye ortak meditasyonlar.</li>
+                            <li>Köpeğinizin içsel mesajlarını "hissetme" yeteneğini geliştirme.</li>
+                        </ul>
+                        <p class="font-semibold mt-2">Süre & Yapı: <span class="font-normal">5 seanslık derinlemesine program (Haftada 1 seans)</span></p>
+                    </div>
+
+                    <!-- Paket 3 -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">🌠 3. Paket: "Spiritüel Yol Arkadaşlığı ve Telepati"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Köpeğiyle telepatik düzeyde iletişim kurmayı arzulayanlar.</li>
+                            <li>Hayvanların bilincini ve ruhsal öğretilerini derinlemesine keşfetmek isteyenler.</li>
+                            <li>İnsan-köpek ilişkisini hayatlarının en kutsal bağlantısı olarak görenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">İçerik:</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Sezgisel iletişime giriş ve telepatik bağ kurma atölyesi.</li>
+                            <li>Köpeğinizden ruhsal rehberlik alma pratikleri.</li>
+                            <li>Ortak şifa meditasyonları ve enerji transferi.</li>
+                            <li>Doğada kutsal ritüeller ve farkındalık yürüyüşleri (İzmir ve çevresi).</li>
+                            <li>Kişiye özel ruhsal yol haritası ve mentorluk.</li>
+                        </ul>
+                        <p class="font-semibold mt-2">Süre ve Yapı: <span class="font-normal">Kapsamlı ve kişiye özel mentorluk programı (6+ seans, esnek planlama)</span></p>
+                    </div>
+                </div>
+
+                <!-- PAWSPRİTÜEL & EKİZ KÖPEK KULÜBÜ HİZMET PAKETLERİ -->
+                <div class="bg-white p-6 md:p-8 rounded-2xl shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4 text-brown-custom">Pati ve Ruh'un Yolculuğu</h3>
+                    <p class="mb-4 text-sm text-gray-500">Bu paket, köpeğiyle olan ilişkisinin temellerini sağlam atmak ve aralarındaki görünmez bağı ilk andan itibaren hissetmek isteyenler için tasarlandı.</p>
+
+                    <!-- Paket 1 -->
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg mb-2">🐾 Paket 1: "Temel Uyum ve Tanışma Paketi"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Yeni köpek sahiplenmiş veya yavru köpek sahibi olanlar.</li>
+                            <li>Pozitif eğitime ve spiritüel yaklaşıma yeni başlayanlar.</li>
+                            <li>Köpeğiyle temel iletişim dilini kurmak isteyenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">Paket İçeriği:</p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <h5 class="font-bold mb-1">Sekiz Köpek Kulübü Katkısı (Pratik Eğitim):</h5>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li>Temel itaat komutları (Otur, Bekle, Gel).</li>
+                                    <li>Pozitif pekiştirme yöntemlerinin öğretilmesi.</li>
+                                    <li>Tasma ile yürüme alıştırmalarına başlangıç.</li>
+                                    <li>Ev içi temel kurallar (tuvalet, ısırma alışkanlıkları vb.).</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 class="font-bold mb-1">Pawspritüel Katkısı (Spiritüel Uyum):</h5>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li>Köpeğinizin enerji alanını anlama ve hissetme.</li>
+                                    <li>Sahip ve köpek için ortak sakinleşme ve nefes egzersizleri.</li>
+                                    <li>Köpeğinizin beden dilini "ruhsal" bir perspektiften okuma.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="font-semibold mt-2">Süre ve Yapı: <span class="font-normal">Toplam 5 seans (4 Pratik Eğitim + 1 Spiritüel Tanışma Seansı)</span></p>
+                    </div>
+
+                    <!-- Paket 2 -->
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg mb-2">🌿 Paket 2: "Derin Bağlar ve Davranış Atölyesi"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Tasma çekiştirme, yalnızlık kaygısı, aşırı havlama gibi spesifik davranış sorunları yaşayanlar.</li>
+                            <li>Köpeğiyle olan bağını bir sonraki seviyeye taşımak isteyenler.</li>
+                            <li>Köpeğinin "neden" böyle davrandığını anlamak isteyenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">Paket İçeriği:</p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <h5 class="font-bold mb-1">Sekiz Köpek Kulübü Katkısı (Pratik Çözümler):</h5>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li>Soruna yönelik davranış analizi ve çözüm planı oluşturma.</li>
+                                    <li>Odaklanma ve dürtü kontrolü egzersizleri.</li>
+                                    <li>Sosyal ortamlarda sakin kalma teknikleri.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 class="font-bold mb-1">Pawspritüel Katkısı (Duygusal Şifa):</h5>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li>Davranışın altındaki enerjisel tıkanıklıkları ve duygusal ihtiyaçları keşfetme.</li>
+                                    <li>Ortak meditasyon pratikleri ile güven bağını güçlendirme.</li>
+                                    <li>Sahibinin enerjisinin köpeği nasıl etkilediği üzerine farkındalık çalışması.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="font-semibold mt-2">Süre ve Yapı: <span class="font-normal">Toplam 6 seans (4 Odaklı Davranış Eğitimi + 2 Derinlemesine Spiritüel Seans)</span></p>
+                    </div>
+
+                    <!-- Paket 3 -->
+                    <div>
+                        <h4 class="font-bold text-lg mb-2">✨ Paket 3: "Ruh Eşi Yolculuğu: Bütünsel Uyumlanma"</h4>
+                        <p class="font-semibold mb-1">Kimler İçin İdeal?</p>
+                        <ul class="list-disc list-inside mb-2 text-sm pl-4">
+                            <li>Köpeğiyle olan bağını en üst seviyeye çıkarmak isteyenler.</li>
+                            <li>Sezgisel iletişimi ve telepatik bağı deneyimlemek isteyenler.</li>
+                            <li>Köpeğini bir yoldaş ve spiritüel bir öğretmen olarak görenler.</li>
+                        </ul>
+                        <p class="font-semibold mb-1">Paket İçeriği:</p>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div>
+                                <h5 class="font-bold mb-1">Sekiz Köpek Kulübü Katkısı (İleri Seviye Ustalık):</h5>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li>İleri seviye itaat ve tasmasız çalışma becerileri.</li>
+                                    <li>Zorlu ortamlarda ve dikkat dağıtıcı unsurlara karşı tam kontrol.</li>
+                                    <li>İşaretle eğitim (Clicker) gibi modern ve eğlenceli teknikler.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 class="font-bold mb-1">Pawspritüel Katkısı (Ruhsal Bütünleşme):</h5>
+                                <ul class="list-disc list-inside pl-4">
+                                    <li>Sezgisel iletişime giriş ve pratik alıştırmalar.</li>
+                                    <li>Köpeğinizin çakra sistemini anlama ve dengeleme.</li>
+                                    <li>Doğada ortak ritüeller ve farkındalık yürüyüşleri (İzmir ve çevresinde).</li>
+                                    <li>Sahip ve köpek için kişiye özel spiritüel yol haritası.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="font-semibold mt-2">Süre ve Yapı: <span class="font-normal">Kişiye özel olarak planlanan, uzun soluklu bir program (genellikle 8+ seans).</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Section -->
+    <section id="iletisim" class="py-16 md:py-24 px-4 md:px-8 bg-brown-dark text-white text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8">Bizi Takip Edin</h2>
+            <div class="flex flex-col items-center">
+                <a href="https://www.instagram.com/pawsprituel" target="_blank" class="text-white hover:text-gray-400 transition-colors duration-300">
+                    <svg class="h-12 w-12 mx-auto mb-4" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2.163c3.204 0 3.584.013 4.85.074 3.197.151 4.301.621 5.305 1.011a8.432 8.432 0 0 1 1.007.638c.67.433 1.258.983 1.763 1.637.505.654.891 1.41.977 2.213.086.803.116 1.183.116 4.864s-.03 4.061-.116 4.864c-.086.803-.472 1.56-.977 2.213a8.432 8.432 0 0 1-1.763 1.637c-.67.433-1.258.983-1.763 1.637a8.432 8.432 0 0 1-1.007.638c-1.004.39-2.108.86-5.305 1.011C15.547 21.987 15.167 22 12 22s-3.547-.013-4.85-.074c-3.197-.151-4.301-.621-5.305-1.011a8.432 8.432 0 0 1-1.007-.638c-.67-.433-1.258-.983-1.763-1.637a8.432 8.432 0 0 1-.977-2.213C2.03 16.061 2 15.681 2 12s.03-4.061.116-4.864c.086-.803.472-1.56.977-2.213a8.432 8.432 0 0 1 1.763-1.637c.67-.433 1.258-.983 1.763-1.637a8.432 8.432 0 0 1 1.007-.638c1.004-.39 2.108-.86 5.305-1.011C8.453 2.013 8.833 2 12 2.163zM12 5.65c-2.348 0-4.25 1.902-4.25 4.25s1.902 4.25 4.25 4.25s4.25-1.902 4.25-4.25S14.348 5.65 12 5.65zM12 12.55a2.55 2.55 0 1 0 0-5.1a2.55 2.55 0 0 0 0 5.1zM17.85 5.53a.9.9 0 1 0-.001-1.8.9.9 0 0 0 0 1.8z" />
+                    </svg>
+                    <span class="text-xl font-semibold">@pawsprituel</span>
+                </a>
+                <div class="mt-4 flex flex-col items-center">
+                    <a href="https://wa.me/+905537322235" class="text-white hover:text-gray-400 transition-colors duration-300 mb-2">
+                        <span class="text-xl font-semibold">0553 732 2235</span>
+                    </a>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/+905537322235" alt="WhatsApp QR Code" class="w-24 h-24 rounded-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brown-custom text-white py-6 text-center">
+        <p>Paw Spritüel © 2024</p>
+    </footer>
+
+</body>
+</ht
